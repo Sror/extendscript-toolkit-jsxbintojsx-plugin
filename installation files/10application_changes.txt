@@ -1,0 +1,15 @@
+// STEP 1
+// Replace
+var files = f.openDlg (localize ("$$$/ESToolkit/FileDlg/Open=Open"),
+					     lang.buildFileTypes(), true);
+// With
+var filetypes = lang.buildFileTypes();
+filetypes = filetypes.replace("*.jsx;", "*.jsx;*.jsxbin;");
+var files = f.openDlg (localize ("$$$/ESToolkit/FileDlg/Open=Open"),
+					     filetypes, true);
+
+// STEP 2
+// Before
+var doc = docMgr.find( f.absoluteURI );
+// Add
+f = app.convertJsxbinToJsx(f);
