@@ -1,5 +1,5 @@
 # Introduction to ExtendScript Toolkit JSXBIN to JSX converter plugin
-[JSXBIN to JSX converter](https://github.com/autoboosh/jsxbin-to-jsx-converter) allows you to decode .jsxbin to .jsx files using the command line. This gets tedious after a while if you have many scripts to decode. That is why this little plugin was born which allows to open .jsxbin files directly inside of ExtendScript Toolkit as if they were always in cleartext.
+[JSXBIN to JSX converter](https://github.com/autoboosh/jsxbin-to-jsx-converter) allows you to decode .jsxbin to .jsx files using the command line. This gets tedious after a while if you have many scripts to decode. That is why this little plugin was born which allows you to open .jsxbin files directly inside of ExtendScript Toolkit as if they had always been in cleartext.
 
 # Demo
 ![Plugin Demo](demo.gif)
